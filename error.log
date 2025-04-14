@@ -1,0 +1,269 @@
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/tkinter/__init__.py", line 1967, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File "/home/cb-mark1/crypto_env/cryptobot/bobby_bot/gui.py", line 297, in update_config
+    OHLCV_HISTORY[pair]['binance'].maxlen = CONFIG['LIMIT']
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: attribute 'maxlen' of 'collections.deque' objects is not writable
+/home/cb-mark1/crypto_env/cryptobot/bobby_bot/gui.py:536: RuntimeWarning: coroutine 'TradingStrategies.fetch_fee_rate' was never awaited
+  self.log(f"{get_timestamp()} - Trading Loop Error: {str(e)}")
+RuntimeWarning: Enable tracemalloc to get the object allocation traceback
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/tkinter/__init__.py", line 1967, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File "/home/cb-mark1/crypto_env/cryptobot/bobby_bot/gui.py", line 117, in <lambda>
+    ("Manual Buy", lambda: self.manual_trade("BUY"), 2, 0),
+                           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cb-mark1/crypto_env/cryptobot/bobby_bot/gui.py", line 460, in manual_trade
+    self.strategies.execute_trade(exchange, signal, price, amount, symbol, current_pair, "Manual")
+  File "/home/cb-mark1/crypto_env/cryptobot/bobby_bot/trading_strategies.py", line 75, in execute_trade
+    maker_fee, taker_fee = loop.run_until_complete(self.fetch_fee_rate(exchange, symbol))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 663, in run_until_complete
+    self._check_running()
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 622, in _check_running
+    raise RuntimeError('This event loop is already running')
+RuntimeError: This event loop is already running
+Exception in Tkinter callback
+/usr/lib/python3.12/tkinter/__init__.py:2425: RuntimeWarning: coroutine 'TradingStrategies.fetch_fee_rate' was never awaited
+  sys.last_traceback = tb
+RuntimeWarning: Enable tracemalloc to get the object allocation traceback
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/tkinter/__init__.py", line 1967, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File "/home/cb-mark1/crypto_env/cryptobot/bobby_bot/gui.py", line 117, in <lambda>
+    ("Manual Buy", lambda: self.manual_trade("BUY"), 2, 0),
+                           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cb-mark1/crypto_env/cryptobot/bobby_bot/gui.py", line 460, in manual_trade
+    self.strategies.execute_trade(exchange, signal, price, amount, symbol, current_pair, "Manual")
+  File "/home/cb-mark1/crypto_env/cryptobot/bobby_bot/trading_strategies.py", line 75, in execute_trade
+    maker_fee, taker_fee = loop.run_until_complete(self.fetch_fee_rate(exchange, symbol))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 663, in run_until_complete
+    self._check_running()
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 622, in _check_running
+    raise RuntimeError('This event loop is already running')
+RuntimeError: This event loop is already running
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/tkinter/__init__.py", line 1967, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File "/home/cb-mark1/crypto_env/cryptobot/bobby_bot/gui.py", line 117, in <lambda>
+    ("Manual Buy", lambda: self.manual_trade("BUY"), 2, 0),
+                           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cb-mark1/crypto_env/cryptobot/bobby_bot/gui.py", line 460, in manual_trade
+    self.strategies.execute_trade(exchange, signal, price, amount, symbol, current_pair, "Manual")
+  File "/home/cb-mark1/crypto_env/cryptobot/bobby_bot/trading_strategies.py", line 75, in execute_trade
+    maker_fee, taker_fee = loop.run_until_complete(self.fetch_fee_rate(exchange, symbol))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 663, in run_until_complete
+    self._check_running()
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 622, in _check_running
+    raise RuntimeError('This event loop is already running')
+RuntimeError: This event loop is already running
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/tkinter/__init__.py", line 1967, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File "/home/cb-mark1/crypto_env/cryptobot/bobby_bot/gui.py", line 117, in <lambda>
+    ("Manual Buy", lambda: self.manual_trade("BUY"), 2, 0),
+                           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cb-mark1/crypto_env/cryptobot/bobby_bot/gui.py", line 460, in manual_trade
+    self.strategies.execute_trade(exchange, signal, price, amount, symbol, current_pair, "Manual")
+  File "/home/cb-mark1/crypto_env/cryptobot/bobby_bot/trading_strategies.py", line 75, in execute_trade
+    maker_fee, taker_fee = loop.run_until_complete(self.fetch_fee_rate(exchange, symbol))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 663, in run_until_complete
+    self._check_running()
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 622, in _check_running
+    raise RuntimeError('This event loop is already running')
+RuntimeError: This event loop is already running
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/tkinter/__init__.py", line 1967, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File "/home/cb-mark1/crypto_env/cryptobot/bobby_bot/gui.py", line 117, in <lambda>
+    ("Manual Buy", lambda: self.manual_trade("BUY"), 2, 0),
+                           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cb-mark1/crypto_env/cryptobot/bobby_bot/gui.py", line 460, in manual_trade
+    self.strategies.execute_trade(exchange, signal, price, amount, symbol, current_pair, "Manual")
+  File "/home/cb-mark1/crypto_env/cryptobot/bobby_bot/trading_strategies.py", line 75, in execute_trade
+    maker_fee, taker_fee = loop.run_until_complete(self.fetch_fee_rate(exchange, symbol))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 663, in run_until_complete
+    self._check_running()
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 622, in _check_running
+    raise RuntimeError('This event loop is already running')
+RuntimeError: This event loop is already running
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/tkinter/__init__.py", line 1967, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File "/home/cb-mark1/crypto_env/cryptobot/bobby_bot/gui.py", line 117, in <lambda>
+    ("Manual Buy", lambda: self.manual_trade("BUY"), 2, 0),
+                           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cb-mark1/crypto_env/cryptobot/bobby_bot/gui.py", line 460, in manual_trade
+    self.strategies.execute_trade(exchange, signal, price, amount, symbol, current_pair, "Manual")
+  File "/home/cb-mark1/crypto_env/cryptobot/bobby_bot/trading_strategies.py", line 75, in execute_trade
+    maker_fee, taker_fee = loop.run_until_complete(self.fetch_fee_rate(exchange, symbol))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 663, in run_until_complete
+    self._check_running()
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 622, in _check_running
+    raise RuntimeError('This event loop is already running')
+RuntimeError: This event loop is already running
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/tkinter/__init__.py", line 1967, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File "/home/cb-mark1/crypto_env/cryptobot/bobby_bot/gui.py", line 117, in <lambda>
+    ("Manual Buy", lambda: self.manual_trade("BUY"), 2, 0),
+                           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cb-mark1/crypto_env/cryptobot/bobby_bot/gui.py", line 460, in manual_trade
+    self.strategies.execute_trade(exchange, signal, price, amount, symbol, current_pair, "Manual")
+  File "/home/cb-mark1/crypto_env/cryptobot/bobby_bot/trading_strategies.py", line 75, in execute_trade
+    maker_fee, taker_fee = loop.run_until_complete(self.fetch_fee_rate(exchange, symbol))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 663, in run_until_complete
+    self._check_running()
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 622, in _check_running
+    raise RuntimeError('This event loop is already running')
+RuntimeError: This event loop is already running
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/tkinter/__init__.py", line 1967, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File "/home/cb-mark1/crypto_env/cryptobot/bobby_bot/gui.py", line 117, in <lambda>
+    ("Manual Buy", lambda: self.manual_trade("BUY"), 2, 0),
+                           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cb-mark1/crypto_env/cryptobot/bobby_bot/gui.py", line 460, in manual_trade
+    self.strategies.execute_trade(exchange, signal, price, amount, symbol, current_pair, "Manual")
+  File "/home/cb-mark1/crypto_env/cryptobot/bobby_bot/trading_strategies.py", line 75, in execute_trade
+    maker_fee, taker_fee = loop.run_until_complete(self.fetch_fee_rate(exchange, symbol))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 663, in run_until_complete
+    self._check_running()
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 622, in _check_running
+    raise RuntimeError('This event loop is already running')
+RuntimeError: This event loop is already running
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/tkinter/__init__.py", line 1967, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File "/home/cb-mark1/crypto_env/cryptobot/bobby_bot/gui.py", line 117, in <lambda>
+    ("Manual Buy", lambda: self.manual_trade("BUY"), 2, 0),
+                           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cb-mark1/crypto_env/cryptobot/bobby_bot/gui.py", line 460, in manual_trade
+    self.strategies.execute_trade(exchange, signal, price, amount, symbol, current_pair, "Manual")
+  File "/home/cb-mark1/crypto_env/cryptobot/bobby_bot/trading_strategies.py", line 75, in execute_trade
+    maker_fee, taker_fee = loop.run_until_complete(self.fetch_fee_rate(exchange, symbol))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 663, in run_until_complete
+    self._check_running()
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 622, in _check_running
+    raise RuntimeError('This event loop is already running')
+RuntimeError: This event loop is already running
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/tkinter/__init__.py", line 1967, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File "/home/cb-mark1/crypto_env/cryptobot/bobby_bot/gui.py", line 117, in <lambda>
+    ("Manual Buy", lambda: self.manual_trade("BUY"), 2, 0),
+                           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cb-mark1/crypto_env/cryptobot/bobby_bot/gui.py", line 460, in manual_trade
+    self.strategies.execute_trade(exchange, signal, price, amount, symbol, current_pair, "Manual")
+  File "/home/cb-mark1/crypto_env/cryptobot/bobby_bot/trading_strategies.py", line 75, in execute_trade
+    maker_fee, taker_fee = loop.run_until_complete(self.fetch_fee_rate(exchange, symbol))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 663, in run_until_complete
+    self._check_running()
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 622, in _check_running
+    raise RuntimeError('This event loop is already running')
+RuntimeError: This event loop is already running
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/tkinter/__init__.py", line 1967, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File "/home/cb-mark1/crypto_env/cryptobot/bobby_bot/gui.py", line 117, in <lambda>
+    ("Manual Buy", lambda: self.manual_trade("BUY"), 2, 0),
+                           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cb-mark1/crypto_env/cryptobot/bobby_bot/gui.py", line 460, in manual_trade
+    self.strategies.execute_trade(exchange, signal, price, amount, symbol, current_pair, "Manual")
+  File "/home/cb-mark1/crypto_env/cryptobot/bobby_bot/trading_strategies.py", line 75, in execute_trade
+    maker_fee, taker_fee = loop.run_until_complete(self.fetch_fee_rate(exchange, symbol))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 663, in run_until_complete
+    self._check_running()
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 622, in _check_running
+    raise RuntimeError('This event loop is already running')
+RuntimeError: This event loop is already running
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/tkinter/__init__.py", line 1967, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File "/home/cb-mark1/crypto_env/cryptobot/bobby_bot/gui.py", line 117, in <lambda>
+    ("Manual Buy", lambda: self.manual_trade("BUY"), 2, 0),
+                           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cb-mark1/crypto_env/cryptobot/bobby_bot/gui.py", line 460, in manual_trade
+    self.strategies.execute_trade(exchange, signal, price, amount, symbol, current_pair, "Manual")
+  File "/home/cb-mark1/crypto_env/cryptobot/bobby_bot/trading_strategies.py", line 75, in execute_trade
+    maker_fee, taker_fee = loop.run_until_complete(self.fetch_fee_rate(exchange, symbol))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 663, in run_until_complete
+    self._check_running()
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 622, in _check_running
+    raise RuntimeError('This event loop is already running')
+RuntimeError: This event loop is already running
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/tkinter/__init__.py", line 1967, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File "/home/cb-mark1/crypto_env/cryptobot/bobby_bot/gui.py", line 117, in <lambda>
+    ("Manual Buy", lambda: self.manual_trade("BUY"), 2, 0),
+                           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cb-mark1/crypto_env/cryptobot/bobby_bot/gui.py", line 460, in manual_trade
+    self.strategies.execute_trade(exchange, signal, price, amount, symbol, current_pair, "Manual")
+  File "/home/cb-mark1/crypto_env/cryptobot/bobby_bot/trading_strategies.py", line 75, in execute_trade
+    maker_fee, taker_fee = loop.run_until_complete(self.fetch_fee_rate(exchange, symbol))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 663, in run_until_complete
+    self._check_running()
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 622, in _check_running
+    raise RuntimeError('This event loop is already running')
+RuntimeError: This event loop is already running
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/tkinter/__init__.py", line 1967, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File "/home/cb-mark1/crypto_env/cryptobot/bobby_bot/gui.py", line 117, in <lambda>
+    ("Manual Buy", lambda: self.manual_trade("BUY"), 2, 0),
+                           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cb-mark1/crypto_env/cryptobot/bobby_bot/gui.py", line 460, in manual_trade
+    self.strategies.execute_trade(exchange, signal, price, amount, symbol, current_pair, "Manual")
+  File "/home/cb-mark1/crypto_env/cryptobot/bobby_bot/trading_strategies.py", line 75, in execute_trade
+    maker_fee, taker_fee = loop.run_until_complete(self.fetch_fee_rate(exchange, symbol))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 663, in run_until_complete
+    self._check_running()
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 622, in _check_running
+    raise RuntimeError('This event loop is already running')
+RuntimeError: This event loop is already running
+sys:1: RuntimeWarning: coroutine 'TradingStrategies.fetch_fee_rate' was never awaited
+RuntimeWarning: Enable tracemalloc to get the object allocation traceback

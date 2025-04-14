@@ -1,0 +1,10 @@
+bobby_bot/
+├── main.py                    # Entry point to run the bot
+├── config.py                  # Configuration and constants
+├── exchanges.py               # Exchange initialization and price fetching
+├── trading_strategies.py      # Trading strategies (arbitrage, scalping, triangular)
+├── gui.py                     # GUI setup and interaction logic
+├── utils.py                   # Utility functions (logging, trade tracking)
+├── trade_memory.py            # Trade memory management
+├── data_manager.py            # Price Data Manager (ATR)
+└── requirements.txt           # Dependencies
